@@ -1,0 +1,10 @@
+<form (ngSubmit)="submit()">
+  email id:<br>
+  <input type="text" name="email" value="email" [(ngModel)]="email">
+  <br>
+  comment here<br>
+  <textarea name="message" rows="5" cols="40" [(ngModel)]="comment">
+        comment here
+        </textarea><br><br>
+  <input type="submit" value="Submit">
+  </form>
